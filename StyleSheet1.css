@@ -168,3 +168,26 @@ form {
     font-weight: Bold;
     padding-bottom: 10px;
 }
+.buttonLink {
+	background-color: RGB(145, 121, 77);
+	color: white;
+	border: #000000;
+	font-weight: 800;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	border-radius: 60px;
+	cursor: pointer;
+	opacity: 0.9;
+	transition: opacity 1s;
+	transition: transform 1s ease 0s;
+	border-width: thick;
+}
+	.buttonLink:hover {
+		background-color: RGB(93, 73, 31);
+		transition: 0.2s;
+		box-shadow: 10px 10px 10px hsla(0,0%,0%,0.15);
+		transform: scale(1.1);
+	}
